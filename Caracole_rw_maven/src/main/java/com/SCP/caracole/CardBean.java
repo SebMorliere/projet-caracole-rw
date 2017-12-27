@@ -1,6 +1,6 @@
-package caracole;
+package com.SCP.caracole;
 
-import interfaceActions.CardActions;
+import com.SCP.interfaceActions.CardActions;
 
 public abstract class CardBean implements CardActions {
     private String id;

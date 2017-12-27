@@ -1,4 +1,4 @@
-package caracole;
+package com.SCP.caracole;
 
 public abstract class CardMethods extends CardBean {
     public void showFace() {

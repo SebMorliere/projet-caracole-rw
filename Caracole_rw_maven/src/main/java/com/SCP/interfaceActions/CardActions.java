@@ -1,4 +1,4 @@
-package interfaceActions;
+package com.SCP.interfaceActions;
 
 public interface CardActions {
     void showFace();

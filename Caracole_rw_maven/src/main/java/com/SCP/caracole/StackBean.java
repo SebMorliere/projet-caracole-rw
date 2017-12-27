@@ -1,6 +1,6 @@
-package caracole;
+package com.SCP.caracole;
 
-import interfaceActions.StackActions;
+import com.SCP.interfaceActions.StackActions;
 
 public abstract class StackBean implements StackActions {
     private String id;

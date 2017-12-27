@@ -1,4 +1,4 @@
-package caracole;
+package com.SCP.caracole;
 
 public abstract class Deck {
     protected static final int variant52 = 52;

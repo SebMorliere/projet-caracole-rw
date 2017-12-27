@@ -1,4 +1,4 @@
-package caracole;
+package com.SCP.caracole;
 
 public abstract class StackMethods extends StackBean {
     public void shuffleStack() {

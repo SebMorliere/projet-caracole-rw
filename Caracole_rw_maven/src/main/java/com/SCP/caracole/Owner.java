@@ -1,10 +1,19 @@
-package caracole;
+package com.SCP.caracole;
 
-public abstract class Owner {
+public class Owner {
     private String id;
     private String name;
     private String location;
     private String type;
+
+    public Owner() {
+    };
+
+    public Owner(String id, String name, String type) {
+        this.id = id;
+        this.name = name;
+        this.type = type;
+    };
 
     public String getId() {
         return id;
@@ -40,5 +49,10 @@ public abstract class Owner {
 
     public boolean compareTo(Owner someOwner) {
         return this.id.equals(someOwner.getId());
+    }
+
+    @Override
+    public String toString() {
+        return "id: " + this.id + " name: " + this.name + " type: " + this.type;
     }
 }
