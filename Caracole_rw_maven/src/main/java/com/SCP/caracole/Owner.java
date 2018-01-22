@@ -28,12 +28,20 @@ public class Owner {
         return name;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public String getType() {
         return type;
     }
 
+    public void setType(String type) {
+        this.type = type;
+    }
+
     public boolean compareTo(Owner someOwner) {
-        return this.name.equals(someOwner.getName()) && this.type.equals(someOwner.getType());
+        return this.id.equals(someOwner.getId());
     }
 
     @Override

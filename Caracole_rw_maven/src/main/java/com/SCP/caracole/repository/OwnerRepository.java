@@ -1,4 +1,4 @@
-package com.SCP.repository;
+package com.SCP.caracole.repository;
 
 import com.SCP.caracole.Owner;
 import org.springframework.data.jpa.repository.JpaRepository;
